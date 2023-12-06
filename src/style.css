@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 90px;
+    margin: 0 auto;
+    
+}
+
+
+body{
+    margin: 0;
+    
+}
+/* Header */
+
+
+.p-2{
+    padding:6px 0;
+}
+/* Register */
+
+form,.Cdiv{
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input,.contactinput{
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 2px solid #000;
+    transition: all 0.4s ease;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background-color: #c1bebe;
+}
+
+input:focus,.contactinput:focus{
+    border: 2px solid #86b7fe;
+}
+
+input::placeholder,.contactinput::placeholder{
+    color: #0003;
+}
+
+.Cbtn{
+    outline: none;
+    border: none;
+    background-color: #86b7fe;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 45%;
+}
+
+.register button,.register-nav{
+    outline: none;
+    border: none;
+    background-color: #86b7fe;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+.error{
+    color: red;
+    font-size: 1rem;
+}
+
+.register button:hover,.register-nav:hover,.Cbtn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #86b7fe;
+    color: #86b7fe;
+}
+
+.cardstyle{
+    width: 25rem;
+    margin-left: 10rem;
+}
+
+.cardstyleX{
+    width: 25rem;
+    margin-left: 55rem;
+}
+.hover{
+    border-radius: 0.5rem;
+    transition: all 0.4s ease;
+}
+
+.hover:hover{
+    box-shadow:inset 1px 1px 5px #5e5d5d;
+}
+.bg{
+    background-color: #b5b2b2;
+}
+
+@media (max-width:1500px){
+    .cardstyleX{
+        margin-left: 25rem;
+    }
+}
+@media (max-width:1406px){
+    .cardstyleX{
+        margin-left: 10rem;
+    }
+}
+@media (max-width:629px){
+    .cardstyleX,.cardstyle{
+        margin-left: 2rem;
+    }
+    .display{
+        display: flex;
+        flex-direction: column;
+        justify-content: 0;
+        gap: 0;
+    }
+}
+
+@media (max-width:472px){
+    .cardstyleX,.cardstyle{
+        width: 20rem;
+    }
+    .Cbtn{
+        margin-left: 40%;
+    }
+    
+}
+
+@media (max-width:286px){
+
+    .Cbtn{
+        margin-left: 30%;
+    }
+    
+}

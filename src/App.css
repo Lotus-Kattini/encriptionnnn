@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.Himg{
+    width: 50%;
+    height: 50%;
+    margin-top: 18rem;
+    margin-right: 5rem;
+    border-radius: 1.5rem;
+    background-image: url('../src/images/imgHeader.jpg');
+    z-index: 999;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Header{
+    padding-top: 20rem;
+    padding-left: 10rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.height{
+    height: 220vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.coloring{
+    background-color: #000;
+    color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.Cstyle{
+    margin-top: 2rem;
+    margin-left: 35rem;
+    width: 25rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+.custm{
+    text-align: center;
+    padding-top: 13rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Cacoord{
+    margin-top: 5rem;
+}
+
+@media (max-width:1156px){
+    .Cstyle{
+        margin-left: 25rem;
+    }
+    .height{
+        height: 260vh;
+    }
+    
+}
+
+@media (max-width:925px){
+    .Cstyle{
+        margin-left: 15rem;
+    }
+    .Header{
+        padding-left: 5rem;
+    }
+    
+}
+
+@media (max-width:675px){
+    .Cstyle{
+        margin-left: 4rem;
+        width: 20rem;
+        
+    }
+    .Himg{
+        width: 70%;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    .Header{
+        padding-top: 7rem;
+    }
+    .height{
+        height: 260vh;
+    }
+}
+
+@media (max-width:623px){
+    .Himg{
+        height: 20rem !important; 
+    }
+    .height{
+        height: 280vh;
+    }
+}
+
+@media (max-width:345px){
+    .Cstyle{
+        margin-left: 1rem;
+    }
 }
